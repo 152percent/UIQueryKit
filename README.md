@@ -1,6 +1,6 @@
 # UIQueryKit
 
-[![CI Status](http://img.shields.io/travis/Shaps Benkau/UIQueryKit.svg?style=flat)](https://travis-ci.org/Shaps Benkau/UIQueryKit)
+[![CI Status](http://img.shields.io/travis/shaps80/UIQueryKit.svg?style=flat)](https://travis-ci.org/shaps80/UIQueryKit)
 [![Version](https://img.shields.io/cocoapods/v/UIQueryKit.svg?style=flat)](http://cocoapods.org/pods/UIQueryKit)
 [![License](https://img.shields.io/cocoapods/l/UIQueryKit.svg?style=flat)](http://cocoapods.org/pods/UIQueryKit)
 [![Platform](https://img.shields.io/cocoapods/p/UIQueryKit.svg?style=flat)](http://cocoapods.org/pods/UIQueryKit)
@@ -22,7 +22,7 @@ pod "UIQueryKit"
 
 ## Author
 
-Shaps Benkau, shapsuk@me.com
+Shaps Benkau – 152percent.com – @shaps
 
 ## License
 

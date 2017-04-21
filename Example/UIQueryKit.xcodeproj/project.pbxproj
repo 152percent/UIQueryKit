@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17CF535A1C602BF1375A46A1 /* Pods_UIQueryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48444EB5EC91E62F1270999F /* Pods_UIQueryKit_Tests.framework */; };
+		5475D4B31EAAA80A00E205CB /* UIView+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D4B21EAAA80A00E205CB /* UIView+Query.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		48444EB5EC91E62F1270999F /* Pods_UIQueryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIQueryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5475D4B11EAAA7E200E205CB /* UIViewController+Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Query.swift"; sourceTree = "<group>"; };
+		5475D4B21EAAA80A00E205CB /* UIView+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Query.swift"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIQueryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIQueryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +42,13 @@
 		607FACE51AFB9204008FA782 /* UIQueryKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIQueryKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		85F845DCB749389A8986F8E0 /* UIQueryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIQueryKit.podspec; path = ../UIQueryKit.podspec; sourceTree = "<group>"; };
+		85F845DCB749389A8986F8E0 /* UIQueryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIQueryKit.podspec; path = ../UIQueryKit.podspec; sourceTree = "<group>"; };
 		A401D15C58DEAC8DB1A08242 /* Pods-UIQueryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIQueryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIQueryKit_Example/Pods-UIQueryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A6E1EF51E384CC9FBB45D05F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A6E1EF51E384CC9FBB45D05F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B5A5E091A865AEDBC4AC8F02 /* Pods-UIQueryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIQueryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIQueryKit_Example/Pods-UIQueryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5455BE3F8AF2854E3D8499D /* Pods-UIQueryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIQueryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIQueryKit_Tests/Pods-UIQueryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E11ACDE81BF877CB8750B77C /* Pods-UIQueryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIQueryKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIQueryKit_Tests/Pods-UIQueryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE0BCF56903F526EF826DB97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE0BCF56903F526EF826DB97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FF245B33634A645C14588EE3 /* Pods_UIQueryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIQueryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5475D4AE1EAAA7B900E205CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5475D4B11EAAA7E200E205CB /* UIViewController+Query.swift */,
+				5475D4B21EAAA80A00E205CB /* UIView+Query.swift */,
+			);
+			name = Classes;
+			path = ../UIQueryKit/Classes;
+			sourceTree = "<group>";
+		};
 		5BFC73702A49A7B3365B0406 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				5475D4AE1EAAA7B900E205CB /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for UIQueryKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -215,10 +229,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V2CWYL9AN8;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V2CWYL9AN8;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -363,6 +379,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				5475D4B31EAAA80A00E205CB /* UIView+Query.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +513,9 @@
 			baseConfigurationReference = A401D15C58DEAC8DB1A08242 /* Pods-UIQueryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				INFOPLIST_FILE = UIQueryKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +529,9 @@
 			baseConfigurationReference = B5A5E091A865AEDBC4AC8F02 /* Pods-UIQueryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				INFOPLIST_FILE = UIQueryKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -523,15 +544,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E11ACDE81BF877CB8750B77C /* Pods-UIQueryKit_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,11 +562,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5455BE3F8AF2854E3D8499D /* Pods-UIQueryKit_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
