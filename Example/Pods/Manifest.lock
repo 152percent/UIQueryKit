@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - UIQueryKit (1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+  - UIQueryKit (from `../`)
+
+EXTERNAL SOURCES:
+  UIQueryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  UIQueryKit: d4cdda2ea7aa6685d9db0c366aceb12d43f6dc12
+
+PODFILE CHECKSUM: 23b2bddb2801c53bbbb07cc8aff03e58aca4c28c
+
+COCOAPODS: 1.2.1

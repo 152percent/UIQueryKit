@@ -1,0 +1,6 @@
+framework module UIQueryKit {
+  umbrella header "UIQueryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
